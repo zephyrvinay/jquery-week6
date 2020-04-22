@@ -2,6 +2,7 @@ $(document).ready(function() {
   $("button#hello").click(function() {
     $("ul#user").prepend("<li>Hello!</li>");
     $("ul#webpage").prepend("<li>Why hello there!</li>");
+    $('li').css('background-color', 'green');
   });
 
   $("button#goodbye").click(function() {
@@ -13,4 +14,5 @@ $(document).ready(function() {
     $("ul#user").prepend("<li>Stop copying me!</li>");
     $("ul#webpage").prepend("<li>Pardon me. I meant no offense.</li>");
   });
+ 
 });
