@@ -4,7 +4,7 @@ $(document).ready(function() {
 
     blanks.forEach(function(blank) {
       //debugger;
-      var userInput = $("input." + blank).val();
+      var userInput = $("input#" + blank).val();
       console.log(userInput);
       $("." + blank).text(userInput).val();      
     });
