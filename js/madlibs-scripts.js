@@ -7,6 +7,8 @@ $(document).ready(function() {
       $("." + blank).text(userInput).val();      
     });
 
-    $("#story").sho();
+    $("#story").show();
+    alert('Got to end of form submit!');
+    
   });
 });
